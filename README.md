@@ -1,12 +1,24 @@
-# React + Vite
+Hostel Meal Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and user-friendly web application for managing meals in a hostel. This platform allows users to easily track meals, make payments, and interact with the community, while admins can efficiently manage all data.
 
-Currently, two official plugins are available:
+URL: https://mealmate-93072.web.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+	•	Pagination: Efficiently browse through meals and posts with smooth pagination.
+	•	Admin & User Dashboards: Separate dashboards with role-specific functionalities.
+	•	Customization Options: Personalize your meal preferences and dashboard settings.
+	•	Stripe Payment Integration: Securely make and manage payments for meals.
+	•	Search, Like, Comment & Sort: Interact with posts and meals with dynamic search, likes, comments, and sorting options.
+	•	Beautiful Design: Clean, responsive, and visually appealing user interface for a seamless experience.
 
-## Expanding the ESLint configuration
+Technologies Used
+	•	Frontend: React.js / HTML / CSS / JavaScript
+	•	Backend: Node.js / Express.js
+	•	Database: MongoDB 
+	•	Payment: Stripe API
+	•	Others: Axios, firebase, daisyUi
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Usage
+	•	Users can browse meals, like, comment, search, sort, and make payments.
+	•	Admins can manage meals, view dashboards, and oversee user activities.
